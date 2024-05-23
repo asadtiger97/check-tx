@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7",
+    "bignumber.js": "^9.1.2",
+    "csv-parser": "^3.0.0",
+    "ethers": "^6.12.1",
+    "fast-csv": "^5.0.1",
     "keccak": "^1.4.0",
+    "mongodb": "^6.6.1",
     "rlp": "^3.0.0",
     "web3": "^4.7.0"
   }

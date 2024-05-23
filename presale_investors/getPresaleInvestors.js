@@ -10,15 +10,26 @@ let contract = new web3.eth.Contract(
 );
 async function init() {
   // let startBlock = 19490621;
-  // let endBlock = 19668108;
+  // let endBlock =   19668108;
   
   // let startBlock = 19668109;
-  // let endBlock = 19761003;
+  // let endBlock =   19761003;
 
 
-let startBlock = 19760915;
-  let endBlock = "replace with current block number";
+  // let startBlock = 19761004;
+  // let endBlock =   19816206;
+
+
   
+  // let startBlock = 19816207;
+  // let endBlock =   19859344;
+
+  //  let startBlock = 19859345;
+  //  let endBlock =   19911193;
+
+
+  //  let startBlock = 19911194;
+  //  let endBlock =   19930491;
 
   let termination = true;
   while (termination) {
@@ -51,3 +62,7 @@ let startBlock = 19760915;
 }
 
 init();
+
+
+
+
